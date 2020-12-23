@@ -326,7 +326,7 @@ resource "aws_instance" "webserver1" {
 # }
 
 output "webserver_hostname" {
-     value = aws_instance.webserver1.dns_name
+     value = aws_instance.webserver1.public_ip
 }
 
 # output "natgw_hostname" {
