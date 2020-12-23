@@ -325,9 +325,9 @@ resource "aws_instance" "webserver1" {
 #   value = aws_lb.http_elb.dns_name
 # }
 
-# output "webserver_hostname" {
-#     value = aws_instance.webserver1.dns_name
-# }
+output "webserver_hostname" {
+     value = aws_instance.webserver1.dns_name
+}
 
 # output "natgw_hostname" {
 #     value = aws_nat_gateway.nat-gw.dns_name
