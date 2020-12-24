@@ -230,7 +230,7 @@ resource "aws_instance" "webserver1" {
 
 
   tags = {
-    Name = "Felix-webserver-emnotification"
+    Name = "Felix-webserver-test"
   }
 }
 
